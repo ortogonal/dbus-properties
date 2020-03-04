@@ -1,0 +1,10 @@
+<node>
+    <interface name="org.appliance">
+        <property name="running" type="b" access="read" />
+
+
+        <method name="start">
+            <arg name="value" type="b" direction="out" />
+        </method>
+    </interface>
+</node>

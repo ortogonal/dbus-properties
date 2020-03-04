@@ -1,0 +1,18 @@
+<node>
+    <interface name="org.example">
+        <property name="tick" type="i" access="read" />
+
+        <property name="red" type="i" access="read" />
+        <property name="green" type="i" access="read" />
+        <property name="blue" type="i" access="read" />
+
+
+        <method name="test">
+            <arg name="value" type="i" direction="in" />
+        </method>
+
+        <signal name="newUSBDevice">
+            <arg name="mountPath" type="s" direction="out" />
+        </signal>
+    </interface>
+</node>
